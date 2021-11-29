@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* CSS Document */
+.test ul{list-style:none;} 
+.test li{float: left;
+		 width:100px;
+		 background:#CCC;
+		 margin-left:3px;
+		 line-height:30px;} 
+.test{width:680px;
+	  margin: auto;}
+.test a:link{color:#666;
+			 background:#CCC;
+			 text-decoration:none;
+			 background:url("../image/微信图片_20210926222749.jpg") #CCC no-repeat 5px 4px;}
+.test a:visited{color:#666;
+			    text-decoration:underline;}
+.test a:hover{color:#FFF; 
+			  font-weight:bold;
+			  text-decoration:underline;
+			  background:#F00;}
+.test a{display:block；
+				text-align:center;
+				height:30px;}
