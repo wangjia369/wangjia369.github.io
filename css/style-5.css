@@ -1,0 +1,111 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	padding: 0px;
+	margin: 0px;
+	line-height: 25px;
+}
+body{
+	height: 100%;
+	background-color: #f3f1e9;
+	position: relative;
+	font-size: 30px;
+}
+img{
+	border: 0px;
+}
+#wrapper{
+	padding: 0 0 5px 0;
+}
+#content_inside{
+	background-image: url("../image/Screenshot_2021_1129_104406.png");
+	background-positon:top left;
+	background-repeat: no-repeat;
+	width: 760px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+#main_block{
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 12px;
+	color:#464646;
+	overflow: hidden;
+	float: left;
+	width: 752px;
+}
+.pd20{
+	padding: 0 0 20px 0;
+}
+#item{
+	padding: 13px 0 0 5px;
+	float: left;
+}
+#item h4{
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 24px;
+	color: #242424;
+	font-weight: normal;
+}
+.big_view{
+	width: 478px;
+	padding: 20px 0 12px 0;
+	vertical-align: middle;
+	border: 1px solid #D6D3C7;
+	background-color: #FFFFFF;
+	position: relative;
+	text-align: center;
+	background-color: #F8F3EE;
+}
+.big_view span{
+	font-size: 25px;
+	color: #F80101;
+	display: block;
+	position: absolute;
+	bottom: 5px;
+	left:10px;
+}
+.scroll{
+	width:478px;
+	border: 1px solid #D6D3C7;
+	background-color: #FFFFFF;
+	padding: 6px 0;
+	text-align: center;
+	margin: 0 0 0 0;
+}
+.scroll a{
+	margin: 0 2px;
+}
+.description{
+	width: 220px;
+	float:left;
+	padding: 55px 0 0 25px;
+}
+.description p{
+	padding-bottom: 15px;
+}
+.view{
+	display: block;
+	float: left;
+	line-height: 18px;
+	margin: 0px 3px 0 0;
+	width:41px;
+	text-align: center;
+	background-image: url("../image/IMG_20210820_205819.jpg");
+	background-position: top left;
+	background-repeat: no-repeat;
+	color: #FC91E4;
+	text-decoration: none;
+}
+.buy{
+	display: block;
+	folat:left;
+	line-height: 18px;
+	margin: 15px 3px 0px 50px;
+	width:70px;
+	text-align: center;
+	background-image: url("../image/IMG_20210820_205819.jpg");
+	background-position: top left;
+    background-repeat: no-repeat;
+    color: #FC91E4;
+    text-decoration: none;
+}

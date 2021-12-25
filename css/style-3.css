@@ -1,0 +1,64 @@
+@charset "utf-8";
+/* CSS Document */
+ul li a img{
+    width: 200px;
+    height: 150px;
+    border: 1px solid #ccc;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+}
+ul{
+    width: 856px;
+    height: 430px;
+    margin: 18px auto;
+    padding: 12px 0 0 12px;
+    border: 1px solid #ccc;
+	border-top-style: dotted;
+    list-style: none;
+}
+ul li{
+    float: left;
+    margin: 0 12px 12px 0;
+    display: inline;
+}
+ul li a{
+    display: block;
+    width: 202px;
+    height: 210px;
+    text-decoration: none;
+    text-align: center;
+    overflow: hidden;
+}
+ul li a strong{
+    display: block;
+    width: 202px;
+    height: 30px;
+    line-height: 15px;
+    font-weight: 100;
+    color: #333;
+    overflow: hidden;
+}
+ul li a span{
+    display: block;
+    width: 202px;
+    height: 20px;
+    line-height: 20px;
+    color: #666;
+}
+ul li a span em{
+    font-style: normal;
+    font-weight: 800;
+    color: #666;
+}
+ul li a:hover img{
+    border-color: #f33;
+}
+ul li a:hover strong{
+    color: #03c;
+}
+ul li a:hover span em{
+    color: #f00;
+}
