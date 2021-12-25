@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<style type="text/css">
+        .wang {
+            width: 400px;
+            margin: 200px 650px;
+        }
+
+    </style>
+    <script type="text/javascript">
+        function my_open() {
+            let my_image = document.getElementById("light");
+            my_image.src = "../image/开灯.gif";
+        }
+        function my_close() {
+            let my_image = document.getElementById("light");
+            my_image.src = "../image/关灯.gif";
+        }
+    </script>
+</head>
+<body>
+    <div class="wang">
+        <button onclick="my_close()">关灯</button>
+        <img id="light" src="../image/关灯.gif" alt="#" />
+        <button onclick="my_open()">开灯</button>
+    </div>
+</body>
+
+</html>
